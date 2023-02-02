@@ -14,7 +14,7 @@ import java.lang.reflect.Method;
  * @Date 2023/1/4
  */
 public class AnnotationDemo {
-    public static void main(String[] args) throws NoSuchMethodException, NoSuchFieldException {
+    public static void main(String[] args) throws NoSuchMethodException {
 //        Class<?> fileDemo = Class.forName("com.real.testDemo.AnnotationDemo");
         Class<?> fileDemo = AnnotationDemo.class;
         Method getAnnotationMethod = fileDemo.getMethod("getAnnotation", int.class);
